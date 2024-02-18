@@ -14,7 +14,7 @@ function Footer() {
             <li>created by :
               <br /><pre>Aditya chaudhary</pre>
             </li>
-            <li>copyright@2023</li>
+            <li>copyright@2024</li>
         </ul>
       </div>
     </>
