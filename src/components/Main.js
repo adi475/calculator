@@ -7,7 +7,7 @@ function Main() {
 
   const handleOnClick = (event) => {
 
-
+try {
   if(event.target.value !== '=' && event.target.value !== 'DEL' && event.target.value !== 'CLR'){
 
     setInput((prevInput) => {
@@ -35,6 +35,12 @@ function Main() {
       return prevInput.slice(0,prevInput.length-1)
     })
   }
+
+} catch (error) {
+
+    return alert("unexpected input value");
+}
+  
 
      
   
