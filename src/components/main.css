@@ -7,6 +7,8 @@
 .box{
     height: 60vh;
     width:20vw;
+    min-width: 150px;
+    min-height: 275px;
     display: flex;
     flex-direction: column;
     background-color: rgb(56, 28, 82);
@@ -66,6 +68,12 @@ button{
     border-radius: 2px;
     box-shadow: 2px 1px rgb(160, 160, 203);
 }
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(81, 203, 114);
+}
+
 
 @media screen and (max-width:750px) {
     button {
