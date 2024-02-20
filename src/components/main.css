@@ -7,7 +7,7 @@
 .box{
     height: 60vh;
     width:20vw;
-    min-width: 150px;
+    min-width: 200px;
     min-height: 275px;
     display: flex;
     flex-direction: column;
